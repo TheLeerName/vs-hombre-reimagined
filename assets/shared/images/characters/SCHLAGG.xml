@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="SCHLAGG.png">
+<SubTexture name="SCHLAGG DownSing0000" x="557" y="746" width="295" height="271" frameX="-84" frameY="-120" frameWidth="470" frameHeight="460" />
+<SubTexture name="SCHLAGG DownSing0001" x="0" y="746" width="276" height="294" frameX="-93" frameY="-96" frameWidth="470" frameHeight="460" />
+<SubTexture name="SCHLAGG Idle0000" x="852" y="746" width="310" height="267" frameX="-77" frameY="-124" frameWidth="470" frameHeight="460" />
+<SubTexture name="SCHLAGG Idle0001" x="276" y="746" width="281" height="294" frameX="-91" frameY="-96" frameWidth="470" frameHeight="460" />
+<SubTexture name="SCHLAGG Idle0002" x="516" y="0" width="249" height="359" frameX="-107" frameY="-30" frameWidth="470" frameHeight="460" />
+<SubTexture name="SCHLAGG Idle0003" x="1000" y="324" width="266" height="321" frameX="-98" frameY="-68" frameWidth="470" frameHeight="460" />
+<SubTexture name="SCHLAGG LeftSing0000" x="0" y="398" width="314" height="348" frameX="-21" frameY="-81" frameWidth="470" frameHeight="460" />
+<SubTexture name="SCHLAGG LeftSing0001" x="1000" y="0" width="290" height="324" frameX="-54" frameY="-80" frameWidth="470" frameHeight="460" />
+<SubTexture name="SCHLAGG Rightsing0000" x="0" y="0" width="271" height="398" frameX="-175" frameY="-29" frameWidth="470" frameHeight="460" />
+<SubTexture name="SCHLAGG Rightsing0001" x="765" y="0" width="235" height="328" frameX="-142" frameY="-71" frameWidth="470" frameHeight="460" />
+<SubTexture name="SCHLAGG Upsing0000" x="271" y="0" width="245" height="379" frameX="-109" frameY="-11" frameWidth="470" frameHeight="460" />
+<SubTexture name="SCHLAGG Upsing0001" x="314" y="398" width="253" height="346" frameX="-105" frameY="-44" frameWidth="470" frameHeight="460" />
+</TextureAtlas>

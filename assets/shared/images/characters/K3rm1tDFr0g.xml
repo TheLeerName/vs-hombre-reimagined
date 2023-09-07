@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="K3rm1tDFr0g.png">
+<SubTexture name="K3rm1tDFr0g Idle0000" x="1033" y="1163" width="530" height="336" frameX="-432" frameY="-321" frameWidth="1095" frameHeight="657" />
+<SubTexture name="K3rm1tDFr0g Idle0001" x="0" y="1163" width="465" height="400" frameX="-389" frameY="-257" frameWidth="1095" frameHeight="657" />
+<SubTexture name="K3rm1tDFr0g Idle0002" x="1502" y="449" width="404" height="444" frameX="-372" frameY="-213" frameWidth="1095" frameHeight="657" />
+<SubTexture name="K3rm1tDFr0g Idle0003" x="409" y="651" width="368" height="459" frameX="-364" frameY="-198" frameWidth="1095" frameHeight="657" />
+<SubTexture name="K3rm1tDFr0g SingLeft0000" x="777" y="651" width="663" height="455" frameX="-134" frameY="-202" frameWidth="1095" frameHeight="657" />
+<SubTexture name="K3rm1tDFr0g SingLeft0001" x="1502" y="0" width="502" height="449" frameX="-295" frameY="-208" frameWidth="1095" frameHeight="657" />
+<SubTexture name="K3rm1tDFr0g SingDown0000" x="0" y="1563" width="609" height="304" frameX="-251" frameY="-353" frameWidth="1095" frameHeight="657" />
+<SubTexture name="K3rm1tDFr0g SingDown0001" x="465" y="1163" width="568" height="346" frameX="-271" frameY="-311" frameWidth="1095" frameHeight="657" />
+<SubTexture name="K3rm1tDFr0g SingUp0000" x="0" y="0" width="462" height="651" frameX="-317" frameY="-6" frameWidth="1095" frameHeight="657" />
+<SubTexture name="K3rm1tDFr0g SingUp0001" x="462" y="0" width="505" height="628" frameX="-295" frameY="-29" frameWidth="1095" frameHeight="657" />
+<SubTexture name="K3rm1tDFr0g SingRight0000" x="967" y="0" width="535" height="515" frameX="-343" frameY="-142" frameWidth="1095" frameHeight="657" />
+<SubTexture name="K3rm1tDFr0g SingRight0001" x="0" y="651" width="409" height="512" frameX="-343" frameY="-145" frameWidth="1095" frameHeight="657" />
+</TextureAtlas>

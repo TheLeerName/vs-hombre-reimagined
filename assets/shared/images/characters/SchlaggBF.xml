@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="SchlaggBF.png">
+<SubTexture name="SchlaggBF SingDown0000" x="655" y="678" width="324" height="314" frameX="-88" frameY="-74" frameWidth="470" frameHeight="460" />
+<SubTexture name="SchlaggBF SingDown0001" x="930" y="322" width="311" height="320" frameX="-78" frameY="-68" frameWidth="470" frameHeight="460" />
+<SubTexture name="SchlaggBF Idle0000" x="0" y="998" width="339" height="271" frameX="-67" frameY="-118" frameWidth="470" frameHeight="460" />
+<SubTexture name="SchlaggBF Idle0001" x="1262" y="0" width="324" height="286" frameX="-74" frameY="-102" frameWidth="470" frameHeight="460" />
+<SubTexture name="SchlaggBF Idle0002" x="314" y="0" width="295" height="348" frameX="-88" frameY="-40" frameWidth="470" frameHeight="460" />
+<SubTexture name="SchlaggBF Idle0003" x="0" y="678" width="307" height="320" frameX="-82" frameY="-68" frameWidth="470" frameHeight="460" />
+<SubTexture name="SchlaggBF SingLeft0000" x="0" y="351" width="329" height="327" frameX="-10" frameY="-61" frameWidth="470" frameHeight="460" />
+<SubTexture name="SchlaggBF SingLeft0001" x="329" y="351" width="324" height="325" frameX="-45" frameY="-64" frameWidth="470" frameHeight="460" />
+<SubTexture name="SchlaggBF SingRight0000" x="930" y="0" width="332" height="322" frameX="-136" frameY="-66" frameWidth="470" frameHeight="460" />
+<SubTexture name="SchlaggBF SingRight0001" x="307" y="678" width="348" height="318" frameX="-89" frameY="-70" frameWidth="470" frameHeight="460" />
+<SubTexture name="SchlaggBF SingUp0000" x="0" y="0" width="314" height="351" frameX="-61" frameY="-37" frameWidth="470" frameHeight="460" />
+<SubTexture name="SchlaggBF SingUp0001" x="609" y="0" width="321" height="331" frameX="-71" frameY="-57" frameWidth="470" frameHeight="460" />
+</TextureAtlas>
