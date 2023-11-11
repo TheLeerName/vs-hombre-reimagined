@@ -1,4 +1,4 @@
-luaDebugMode = true
+--luaDebugMode = true
 
 
 -- bg elemetns
@@ -16,11 +16,17 @@ runHaxeCode([[
 ]])
 
 function onCreatePost()
+	makeLuaSprite('curve')
+
+	if not shadersEnabled then
+		setShaderFloat = function(a, b, c) end -- Shader is not FlxRuntimeShader!
+		return
+	end
+
 	initLuaShader('wobbl')
 	setCameraShader('camGame', 'wobbl')
 
 	initLuaShader('curve')
-	makeLuaSprite('curve')
 	setSpriteShader('curve', 'curve')
 	runHaxeCode("game.camHUD.setFilters([new ShaderFilter(game.modchartSprites.get('curve').shader)]);")
 end
