@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Greetings", "hombre", [204, 104, 82]]
+	],
+
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBackground": "",
+
+	"difficulties": "Normal",
+	"storyName": "",
+	"weekBefore": "none",
+	"weekName": "Bread",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}
