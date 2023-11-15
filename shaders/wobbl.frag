@@ -1,6 +1,6 @@
 // Wobbl shader (name by cobalt bar)
 // Made by TheLeerName
-// Specially for VS Hombre Reimagined FNF Mod
+// Specially for VS Hombre Reimagined FNF Mod (not released yet)
 
 #pragma header
 
