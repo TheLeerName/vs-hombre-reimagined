@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-21,
+				20
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-39,
+				2
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				33
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				37
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				22
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "left-miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				0
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "down-miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				45
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "up-miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				38
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "right-miss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/hombre_boyfriend",
+	"position": [
+		-210,
+		-60
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		-210,
+		280
+	],
+	"sing_duration": 4,
+	"scale": 0.5
+}

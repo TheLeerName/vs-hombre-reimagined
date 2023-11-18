@@ -2,7 +2,7 @@
 	"song": {
 		"speed": 2.4,
 		"stage": "hombre_room",
-		"player1": "bf",
+		"player1": "hombre-bf",
 		"player2": "hombre",
 		"events": [],
 		"notes": [
