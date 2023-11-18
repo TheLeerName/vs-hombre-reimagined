@@ -4,6 +4,9 @@ var bg = new FlxSprite(-500, -500).loadGraphic(Paths.image('xci-bg'));
 bg.scale.set(1, 0.75);
 addBehindGF(bg);
 
+game.initHScript(Paths.modFolders("cameramovesonnotehit.hx"));
+setVar('cameraMoveStrength', 40);
+
 game.initLuaShader('static');
 game.camGame._filters = game.camHUD._filters = [new ShaderFilter(game.createRuntimeShader('static'))];
 

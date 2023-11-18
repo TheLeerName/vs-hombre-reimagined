@@ -1,6 +1,4 @@
-import backend.Conductor;
-
-var strength:Float = 60;
+setVar('cameraMoveStrength', 60);
 var doit_onGhostTap:Bool = true;
 
 
@@ -12,11 +10,12 @@ function setPosition(?x:Float = 0, ?y:Float = 0) {
 }
 
 function makeMove(noteData:Float) {
+	var st = getVar('cameraMoveStrength');
 	switch(noteData) {
-		case 0: setPosition(-strength);
-		case 1: setPosition(0, strength);
-		case 2: setPosition(0, -strength);
-		case 3: setPosition(strength);
+		case 0: setPosition(-st);
+		case 1: setPosition(0, st);
+		case 2: setPosition(0, -st);
+		case 3: setPosition(st);
 	}
 }
 

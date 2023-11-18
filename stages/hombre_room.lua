@@ -15,6 +15,9 @@ runHaxeCode([[
 	});
 ]])
 
+addHScript('cameramovesonnotehit')
+setProperty('cameraMoveStrength', 30)
+
 function onCreatePost()
 	makeLuaSprite('curve')
 
