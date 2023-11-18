@@ -12,12 +12,12 @@
 			{
 				"sectionNotes": [],
 				"lengthInSteps": 16,
-				"mustHitSection": false
+				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [],
 				"lengthInSteps": 16,
-				"mustHitSection": false
+				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [],
@@ -4017,11 +4017,11 @@
 				"mustHitSection": false
 			}
 		],
-		"player2": "pico",
+		"player2": "zeebyte",
 		"player3": null,
 		"author": "TheLeerName",
 		"song": "Train Ride",
-		"stage": "stage",
+		"stage": "subway",
 		"needsVoices": true,
 		"bpm": 165,
 		"speed": 3.2
