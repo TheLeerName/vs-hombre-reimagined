@@ -1,6 +1,7 @@
 {
 	"songs": [
 		["Greetings", "hombre", [204, 104, 82]],
+		["Homie", "bruj", [50, 50, 50]],
 		["Train Ride", "zeebyte", [124, 62, 73]],
 		["Dead End", "xci-stupid", [46, 27, 33]],
 	],

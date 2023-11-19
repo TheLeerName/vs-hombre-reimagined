@@ -1,7 +1,7 @@
 {
 	"song": {
-		"player1": "bf",
-		"player2": "pico",
+		"player1": "hombre-bf",
+		"player2": "Bruj",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -5048,7 +5048,7 @@
 		"player3": null,
 		"song": "Homie",
 		"needsVoices": true,
-		"stage": "stage",
+		"stage": "bruj",
 		"speed": 3,
 		"bpm": 150
 	}
