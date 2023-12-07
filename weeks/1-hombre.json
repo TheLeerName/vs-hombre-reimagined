@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Greetings", "hombre", [204, 104, 82]],
+		["Train Ride", "zeebyte", [124, 62, 73]],
+		["Extraordinary", "bruj", [50, 50, 50]],
+	],
+
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBackground": "",
+
+	"difficulties": "Normal",
+	"storyName": "",
+	"weekBefore": "none",
+	"weekName": "1-hombre",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

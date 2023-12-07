@@ -1,8 +1,6 @@
 {
 	"songs": [
-		["Greetings", "hombre", [204, 104, 82]],
-		["Extraordinary", "bruj", [50, 50, 50]],
-		["Train Ride", "zeebyte", [124, 62, 73]],
+		["Night Terrors", "no", [204, 104, 82]],
 		["Dead End", "xci-stupid", [46, 27, 33]],
 	],
 
@@ -16,7 +14,7 @@
 	"difficulties": "Normal",
 	"storyName": "",
 	"weekBefore": "none",
-	"weekName": "Bread",
+	"weekName": "2-xci",
 	"startUnlocked": true,
 
 	"hideStoryMode": true,
