@@ -19,6 +19,8 @@ addHScript('cameramovesonnotehit')
 setProperty('cameraMoveStrength', 30)
 
 function onCreatePost()
+	addCharacterToList('hombre', 'dad')
+
 	makeLuaSprite('curve')
 
 	if not shadersEnabled then
@@ -48,7 +50,9 @@ function onSectionHit()
 	end
 end
 
+local wasXLastTime = false
 local wasNegativeLastTime = false
+local curving = false
 function doCurve(strength, duration)
 	strength = strength or 0.15
 	duration = duration or 1
@@ -58,12 +62,21 @@ function doCurve(strength, duration)
 	strength = strength * getRandomFloat(0.75, 1) -- and a bit of random ofc
 
 	--             skill issue affects to it too
-	local tween = getRandomBool(50) and doTweenY or doTweenX
+	local tween = getRandomBool(50) and 'Y' or 'X'
 
-	tween('435', 'curve', strength, duration)
+	wasXLastTime = tween == 'X'
+	wasNegativeLastTime = strength < 0
+	curving = true
+
+	_G['doTween'..tween]('435', 'curve', strength, duration)
 end
+function onTweenCompleted(tag)
+	if tag == '435' then curving = false end
+end
+
 function doFlash()
 	cameraFlash('camOther', 'ffffff', seconds(16))
+	setHealth(getRandomFloat(0.01, 2))
 end
 
 -- 640
@@ -113,6 +126,8 @@ local stepEvents = {
 	end,
 	[1024] = function()
 		doFlash()
+		triggerEvent('Change Character', 'dad', 'hombre')
+		setProperty('cameraSpeed', 1.5)
 	end,
 
 	[1280] = function()
@@ -159,6 +174,10 @@ function onUpdate(elapsed)
 
 	setShaderFloat('curve', 'curveX', getProperty('curve.x'))
 	setShaderFloat('curve', 'curveY', getProperty('curve.y'))
+
+	if curving then
+		setHealth(math.max(0.01, elapsed))
+	end
 end
 
 function lerp(a, b, t)
