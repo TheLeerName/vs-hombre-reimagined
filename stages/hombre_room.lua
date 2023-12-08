@@ -16,6 +16,7 @@ runHaxeCode([[
 ]])
 
 addHScript('cameramovesonnotehit')
+addHScript('challenger')
 setProperty('cameraMoveStrength', 30)
 
 function onCreatePost()
