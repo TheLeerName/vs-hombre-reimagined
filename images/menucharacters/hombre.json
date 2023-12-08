@@ -1,0 +1,10 @@
+{
+	"confirm_anim": "idle",
+	"idle_anim": "idle",
+	"position": [
+		340,
+		231
+	],
+	"scale": 1,
+	"image": "images/hombre_goofy"
+}

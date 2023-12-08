@@ -6,9 +6,9 @@
 	],
 
 	"weekCharacters": [
-		"",
-		"",
-		""
+		"hombre",
+		"bf",
+		"gf"
 	],
 	"weekBackground": "",
 
@@ -18,6 +18,6 @@
 	"weekName": "1-hombre",
 	"startUnlocked": true,
 
-	"hideStoryMode": true,
+	"hideStoryMode": false,
 	"hideFreeplay": false
 }

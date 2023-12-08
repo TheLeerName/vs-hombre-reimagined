@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="hombre goofy.png">
+<!-- Resized by xml-resize (divideX = 3, divideY = 3), ask @theleername in discord for app -->
+	<SubTexture x="388" frameWidth="666" y="0" frameX="-310" name="idle0000" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="388" frameWidth="666" y="0" frameX="-310" name="idle0001" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="573" frameWidth="666" y="0" frameX="-310" name="idle0002" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="573" frameWidth="666" y="0" frameX="-310" name="idle0003" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="758" frameWidth="666" y="0" frameX="-310" name="idle0004" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="758" frameWidth="666" y="0" frameX="-310" name="idle0005" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="0" frameWidth="666" y="383" frameX="-310" name="idle0006" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="0" frameWidth="666" y="383" frameX="-310" name="idle0007" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="185" frameWidth="666" y="383" frameX="-310" name="idle0008" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="185" frameWidth="666" y="383" frameX="-310" name="idle0009" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0010" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0011" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0012" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0013" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0014" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0015" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0016" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0017" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0018" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0019" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0020" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0021" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0022" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0023" frameHeight="666" frameY="-220" width="185" height="383"/>
+<SubTexture x="370" frameWidth="666" y="383" frameX="-310" name="idle0024" frameHeight="666" frameY="-220" width="185" height="383"/>
+</TextureAtlas>

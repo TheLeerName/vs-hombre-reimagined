@@ -1,13 +1,13 @@
 {
 	"songs": [
-		["Night Terrors", "no", [204, 104, 82]],
+		["Night Terrors", "xci-stupid", [204, 104, 82]],
 		["Dead End", "xci-stupid", [46, 27, 33]],
 	],
 
 	"weekCharacters": [
-		"",
-		"",
-		""
+		"xci",
+		"bf",
+		"gf"
 	],
 	"weekBackground": "",
 
@@ -17,6 +17,6 @@
 	"weekName": "2-xci",
 	"startUnlocked": true,
 
-	"hideStoryMode": true,
+	"hideStoryMode": false,
 	"hideFreeplay": false
 }
