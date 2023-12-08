@@ -5,3 +5,13 @@ addBehindGF(bg);
 
 game.initHScript(Paths.modFolders("cameramovesonnotehit.hx"));
 setVar('cameraMoveStrength', 30);
+
+function setColorTransformOffset(colorTransform, red:Float, green:Float, blue:Float) {
+	colorTransform.redOffset = red;
+	colorTransform.greenOffset = green;
+	colorTransform.blueOffset = blue;
+}
+
+function onCreatePost() {
+	setColorTransformOffset(game.gf.colorTransform, 75, 75, 75);
+}
