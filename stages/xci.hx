@@ -27,9 +27,58 @@ var changeBF = val -> {
 	onChangeBF(val);
 };
 
+function setColorTransformMult(colorTransform, red:Float, green:Float, blue:Float) {
+	colorTransform.redMultiplier = red;
+	colorTransform.greenMultiplier = green;
+	colorTransform.blueMultiplier = blue;
+}
+
 function onCreatePost() {
 	bf2 = getVar('bf2');
 	bf2.x += bf2XOffset;
+
+	// changing some gamma
+	game.dad.shader = new FlxRuntimeShader("
+		#pragma header
+		void main() {
+			#pragma body
+			vec4 color256 = floor(gl_FragColor * 255);
+			if (color256.rgb != vec3(255, 0, 0) && color256.rgb != vec3(87, 65, 51))
+				gl_FragColor.rgb *= 0.5;
+		}
+	");
+	game.gf.shader = new FlxRuntimeShader("
+		#pragma header
+		void main() {
+			#pragma body
+			if (gl_FragColor.rgb != vec3(1, 84. / 255., 147. / 255.))
+				gl_FragColor.rgb *= 0.5;
+			else
+				gl_FragColor.rgb *= 0.75;
+		}
+	");
+	game.boyfriend.shader = new FlxRuntimeShader("
+		#pragma header
+		void main() {
+			#pragma body
+			vec4 color256 = floor(gl_FragColor * 255);
+			if (color256.r <= 140 && color256.g >= 230 && color256.b >= 230)
+			{
+			}
+			else
+				gl_FragColor.rgb *= 0.5;
+		}
+	");
+	bf2.shader = new FlxRuntimeShader("
+		#pragma header
+		void main() {
+			#pragma body
+			if (gl_FragColor.rgb != vec3(1))
+				gl_FragColor.rgb *= 0.8;
+		}
+	");
+	
+	game.cameraSpeed = 0.75;
 }
 
 function onCreate() {} // i love debugging so i put it here (game not printing "initialized sscript interp successfully" thing without this)
@@ -40,11 +89,14 @@ function onStepHit() {
 		case 372:
 			salphatwn(0.5, 12);
 		case 384:
+			game.cameraSpeed = 1;
 			salphatwn(0, 8);
 		case 500:
 			salphatwn(0.5, 12);
 		case 512:
 			salphatwn(0, 2);
+		case 528:
+			game.cameraSpeed = 2;
 		case 580:
 			salphatwn(0.5, 12);
 		case 592:
@@ -69,12 +121,27 @@ function onStepHit() {
 			salphatwn(0.5, 8);
 		case 776:
 			salphatwn(0, 2);
+		case 784:
+			game.cameraSpeed = 1;
 		case 798:
 			changeBF(true);
+		case 1028:
+			salphatwn(0.5, 12);
+		case 1040:
+			salphatwn(0, 8);
+			game.cameraSpeed = 1.5;
 		case 1102:
 			changeBF(false);
+		case 1168:
+			game.cameraSpeed = 1;
 		case 1230:
 			changeBF(true);
+		case 1268:
+			salphatwn(0.5, 8);
+		case 1280:
+			salphatwn(0, 2);
+		case 1296:
+			game.cameraSpeed = 1.5;
 		case 1342:
 			changeBF(false);
 		case 1422:
@@ -83,14 +150,8 @@ function onStepHit() {
 			changeBF(false);
 		case 1550:
 			changeBF(true);
-		case 1028:
-			salphatwn(0.5, 12);
-		case 1040:
-			salphatwn(0, 8);
-		case 1268:
-			salphatwn(0.5, 8);
-		case 1280:
-			salphatwn(0, 2);
+		case 1552:
+			game.cameraSpeed = 1;
 	}
 }
 
