@@ -1,4 +1,5 @@
-# Hombre's Self Insert Reimagined
+# Hombre's Reimagined
+<img src="images/logo.png" width="50%"/>
 
 ## To install
 1. Download [Psych Engine 0.7.1h](https://github.com/ShadowMario/FNF-PsychEngine/releases/tag/0.7.1h)
