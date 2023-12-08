@@ -35,7 +35,7 @@ function onCreatePost() {
 var time:Float = 0;
 function onUpdate(elapsed:Float) {
 	time += elapsed;
-	if (FlxG.game.filters != null) FlxG.game.filters[0].shader.data.iTime.value = [time];
+	if (FlxG.game.filters[0] != null) FlxG.game.filters[0].shader.data.iTime.value = [time];
 }
 
 function onDestroy() {
