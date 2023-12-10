@@ -14,7 +14,7 @@ bg.setPosition(txt.x - 10, txt.y - 4);
 
 var ended = false;
 function onEndSong() {
-	if (!ended && PlayState.isStoryMode && PlayState.storyPlaylist.length <= 0 && !ClientPrefs.getGameplaySetting('practice') && !ClientPrefs.getGameplaySetting('botplay')) {
+	if (!ended) {
 		ended = true;
 		game.camGame.alpha = 0;
 		game.camHUD.alpha = 0;
