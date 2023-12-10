@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				260,
+				60
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "bald idle"
+		},
+		{
+			"offsets": [
+				260,
+				60
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bald left"
+		},
+		{
+			"offsets": [
+				260,
+				60
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bald down"
+		},
+		{
+			"offsets": [
+				260,
+				60
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "bald up"
+		},
+		{
+			"offsets": [
+				260,
+				60
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bald right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bald",
+	"position": [
+		-40,
+		210
+	],
+	"healthicon": "bald",
+	"flip_x": false,
+	"healthbar_colors": [
+		55,
+		255,
+		15
+	],
+	"camera_position": [
+		100,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

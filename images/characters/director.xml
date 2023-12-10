@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="director.png">
+<SubTexture name="director idle0000" x="0" y="0" width="379" height="736" frameX="-421" frameY="-55" frameWidth="1536" frameHeight="864" />
+<SubTexture name="director idle0001" x="758" y="0" width="382" height="721" frameX="-418" frameY="-71" frameWidth="1536" frameHeight="864" />
+<SubTexture name="director idle0002" x="0" y="736" width="388" height="702" frameX="-412" frameY="-90" frameWidth="1536" frameHeight="864" />
+<SubTexture name="director idle0003" x="1140" y="0" width="382" height="721" frameX="-418" frameY="-71" frameWidth="1536" frameHeight="864" />
+<SubTexture name="director idle0004" x="379" y="0" width="379" height="736" frameX="-421" frameY="-55" frameWidth="1536" frameHeight="864" />
+</TextureAtlas>
