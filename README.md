@@ -29,4 +29,4 @@
 - GF sprite - [PlagueR](https://www.youtube.com/@plagueanimations3380)<img src="images/credits/PlagueR.png" width="10%" align="center"/>
 - Characters in Admirer - [Meol](https://www.youtube.com/channel/UCObXy_18AhmOoqBdWZrvtuQ)<img src="images/credits/Meol.png" width="10%" align="center"/>
 - Hombre and ZeeByte characters - [GWEjbik](https://twitter.com/ejbik12)<img src="images/credits/GWEjbik.png" width="10%" align="center"/>
-- Artist of "Fair Well" Game Over Theme, *bro drawed song fr fr* - [ga3mer](https://www.youtube.com/channel/UCe5UmgD9Mo8U1wrSyQxiGAQ)<img src="images/credits/ga3mer.png" width="10%" align="center"/>
+- Mod logo / Artist of "Fair Well" Game Over Theme, *bro drawed song fr fr* - [ga3mer](https://www.youtube.com/channel/UCe5UmgD9Mo8U1wrSyQxiGAQ)<img src="images/credits/ga3mer.png" width="10%" align="center"/>
