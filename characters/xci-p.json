@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 14,
+			"name": "bitch idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				10
+			],
+			"anim": "singLEFT",
+			"fps": 14,
+			"name": "bitch left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				-2
+			],
+			"anim": "singDOWN",
+			"fps": 14,
+			"name": "bitch down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 14,
+			"name": "bitch up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 14,
+			"name": "bitch right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bitch",
+	"position": [
+		-250,
+		50
+	],
+	"healthicon": "xci-stupid",
+	"flip_x": false,
+	"healthbar_colors": [
+		46,
+		27,
+		33
+	],
+	"camera_position": [
+		0,
+		-120
+	],
+	"sing_duration": 4,
+	"scale": 1.8
+}

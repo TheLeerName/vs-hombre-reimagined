@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bitch.png">
+<SubTexture name="bitch right0000" x="324" y="896" width="323" height="406" frameX="-167" frameY="-68" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch idle0000" x="490" y="468" width="331" height="415" frameX="-127" frameY="-59" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch idle0001" x="924" y="0" width="331" height="415" frameX="-127" frameY="-59" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch idle0002" x="1255" y="0" width="329" height="411" frameX="-127" frameY="-63" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch idle0003" x="1255" y="411" width="327" height="408" frameX="-127" frameY="-66" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch idle0004" x="647" y="896" width="324" height="404" frameX="-129" frameY="-70" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch idle0005" x="674" y="1304" width="325" height="389" frameX="-130" frameY="-85" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch idle0006" x="1584" y="0" width="324" height="401" frameX="-130" frameY="-73" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch idle0007" x="0" y="896" width="324" height="408" frameX="-130" frameY="-66" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch left0000" x="0" y="468" width="247" height="428" frameX="-157" frameY="-45" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch left0001" x="247" y="468" width="243" height="428" frameX="-166" frameY="-45" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch left0002" x="924" y="415" width="238" height="415" frameX="-174" frameY="-58" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch up0000" x="0" y="0" width="306" height="468" frameX="-101" frameY="-6" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch up0001" x="306" y="0" width="309" height="452" frameX="-101" frameY="-22" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch up0002" x="615" y="0" width="309" height="434" frameX="-102" frameY="-40" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch down0000" x="1335" y="1304" width="350" height="365" frameX="-114" frameY="-109" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch down0001" x="999" y="1304" width="336" height="374" frameX="-116" frameY="-100" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch down0002" x="0" y="1304" width="334" height="398" frameX="-112" frameY="-76" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch right0001" x="334" y="1304" width="340" height="397" frameX="-166" frameY="-77" frameWidth="640" frameHeight="480" />
+<SubTexture name="bitch right0002" x="971" y="896" width="323" height="404" frameX="-167" frameY="-70" frameWidth="640" frameHeight="480" />
+</TextureAtlas>

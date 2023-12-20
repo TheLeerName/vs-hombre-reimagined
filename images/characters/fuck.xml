@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="fuck.png">
+<SubTexture name="fuck idle0000" x="674" y="0" width="265" height="349" frameX="-144" frameY="-107" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck idle0001" x="554" y="437" width="267" height="343" frameX="-145" frameY="-113" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck idle0002" x="939" y="0" width="263" height="339" frameX="-149" frameY="-117" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck idle0003" x="663" y="1124" width="271" height="325" frameX="-148" frameY="-131" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck idle0004" x="1202" y="0" width="261" height="330" frameX="-151" frameY="-126" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck idle0005" x="939" y="339" width="257" height="338" frameX="-152" frameY="-118" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck idle0006" x="0" y="437" width="254" height="349" frameX="-155" frameY="-107" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck left0000" x="320" y="786" width="338" height="336" frameX="-114" frameY="-119" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck left0001" x="658" y="786" width="320" height="331" frameX="-122" frameY="-124" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck left0002" x="934" y="1124" width="307" height="324" frameX="-135" frameY="-131" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck up0000" x="0" y="0" width="233" height="437" frameX="-175" frameY="-21" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck up0001" x="233" y="0" width="226" height="425" frameX="-181" frameY="-33" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck up0002" x="459" y="0" width="215" height="410" frameX="-189" frameY="-48" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck down0000" x="1463" y="308" width="317" height="298" frameX="-145" frameY="-158" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck down0001" x="1463" y="0" width="324" height="308" frameX="-149" frameY="-148" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck down0002" x="343" y="1124" width="320" height="326" frameX="-163" frameY="-130" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck right0000" x="0" y="1124" width="343" height="329" frameX="-196" frameY="-139" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck right0001" x="0" y="786" width="320" height="338" frameX="-204" frameY="-129" frameWidth="640" frameHeight="480" />
+<SubTexture name="fuck right0002" x="254" y="437" width="300" height="344" frameX="-208" frameY="-123" frameWidth="640" frameHeight="480" />
+</TextureAtlas>

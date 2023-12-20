@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="angry.png">
+<SubTexture name="angry idle0000" x="1190" y="0" width="258" height="429" frameX="-178" frameY="-51" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry idle0001" x="1190" y="0" width="258" height="429" frameX="-178" frameY="-51" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry idle0002" x="1190" y="0" width="258" height="429" frameX="-178" frameY="-51" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry idle0003" x="1190" y="0" width="258" height="429" frameX="-178" frameY="-51" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry idle0004" x="1190" y="0" width="258" height="429" frameX="-178" frameY="-51" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry idle0005" x="1190" y="429" width="258" height="427" frameX="-178" frameY="-53" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry idle0006" x="258" y="893" width="258" height="424" frameX="-178" frameY="-56" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry idle0007" x="0" y="893" width="258" height="427" frameX="-178" frameY="-53" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry left0000" x="941" y="893" width="382" height="422" frameX="-52" frameY="-58" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry left0001" x="636" y="454" width="374" height="432" frameX="-68" frameY="-48" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry left0002" x="259" y="0" width="342" height="447" frameX="-107" frameY="-33" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry down0000" x="416" y="1320" width="404" height="393" frameX="-103" frameY="-87" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry down0001" x="0" y="1320" width="416" height="417" frameX="-95" frameY="-63" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry down0002" x="516" y="893" width="425" height="423" frameX="-89" frameY="-57" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry up0000" x="0" y="0" width="259" height="454" frameX="-180" frameY="-26" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry up0001" x="601" y="0" width="258" height="446" frameX="-177" frameY="-34" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry up0002" x="0" y="454" width="261" height="439" frameX="-168" frameY="-41" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry right0000" x="1448" y="0" width="382" height="422" frameX="-206" frameY="-58" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry right0001" x="261" y="454" width="375" height="436" frameX="-197" frameY="-44" frameWidth="640" frameHeight="480" />
+<SubTexture name="angry right0002" x="859" y="0" width="331" height="442" frameX="-206" frameY="-38" frameWidth="640" frameHeight="480" />
+</TextureAtlas>
